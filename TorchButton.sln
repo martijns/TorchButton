@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TorchButton", "TorchButton\TorchButton.vcproj", "{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "TorchButtonSetup", "TorchButtonSetup\TorchButtonSetup.vddproj", "{11B29928-2631-433E-A7A0-B40A073A75F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TorchButtonBright", "TorchButtonBright\TorchButtonBright.vcproj", "{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TorchButtonBlink", "TorchButtonBlink\TorchButtonBlink.vcproj", "{4ABA4DF1-F496-465E-85B2-33D2AE46B910}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TorchButtonSOS", "TorchButtonSOS\TorchButtonSOS.vcproj", "{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TorchButtonPTT", "TorchButtonPTT\TorchButtonPTT.vcproj", "{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Mobile 6 Professional SDK (ARMV4I) = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		Release|Windows Mobile 6 Professional SDK (ARMV4I) = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}.Release|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{11B29928-2631-433E-A7A0-B40A073A75F8}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Debug
+		{11B29928-2631-433E-A7A0-B40A073A75F8}.Release|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}.Release|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{4ABA4DF1-F496-465E-85B2-33D2AE46B910}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{4ABA4DF1-F496-465E-85B2-33D2AE46B910}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{4ABA4DF1-F496-465E-85B2-33D2AE46B910}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{4ABA4DF1-F496-465E-85B2-33D2AE46B910}.Release|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{4ABA4DF1-F496-465E-85B2-33D2AE46B910}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{4ABA4DF1-F496-465E-85B2-33D2AE46B910}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}.Release|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}.Debug|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Debug|Windows Mobile 6 Professional SDK (ARMV4I)
+		{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}.Release|Windows Mobile 6 Professional SDK (ARMV4I).ActiveCfg = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Build.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+		{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}.Release|Windows Mobile 6 Professional SDK (ARMV4I).Deploy.0 = Release|Windows Mobile 6 Professional SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

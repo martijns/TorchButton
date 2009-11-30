@@ -1,0 +1,404 @@
+"DeployProject"
+{
+"VSVersion" = "3:701"
+"ProjectType" = "8:{AB322303-2255-48EF-A496-5904EB18DA55}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:TorchButtonSetup"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_065F7AD2F60D499BBF79A3E0F3F79CCE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_43F556C91F4A4B22865E039492BA41BC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9B2A10D7B70646E1B4D1BEEEC7CA958E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9F850981912749AD8CEC8A7547E33138"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A17F991F86DF4C27A8A18C2B60EDD039"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D6C6EEEA0ACA43FEB8EE94C990C2FE9D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\TorchButtonSetup.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\TorchButtonSetup.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+    }
+    "Deployable"
+    {
+        "File"
+        {
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D6C6EEEA0ACA43FEB8EE94C990C2FE9D"
+            {
+            "SourcePath" = "8:..\\TorchButton\\readme.txt"
+            "TargetName" = "8:readme.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "Folder"
+        {
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_2BCAB5FE682C42188A6C95298FA33118"
+            {
+            "Name" = "8:#1911"
+            "Condition" = "8:"
+            "Property" = "8:%CE1%"
+                "Folders"
+                {
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_F55018CBD0854F4F913F27FC1E99C0ED"
+                    {
+                    "Name" = "8:TorchButton"
+                    "Condition" = "8:"
+                    "Property" = "8:_964D84D1AEC044DEBCD2A7A1281DA775"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_5FF22258355040C287DFFDBE0AAED7AB"
+            {
+            "Name" = "8:#1916"
+            "Condition" = "8:"
+            "Property" = "8:%CE11%"
+                "Folders"
+                {
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_16349FCF71DC4FC395F15F3C14782DF0"
+                    {
+                    "Name" = "8:TorchButton"
+                    "Condition" = "8:"
+                    "Property" = "8:_AD51905A860D41E9A5F4C37498BADE7B"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
+            "{D5B00AC1-E6C3-4CC5-90FF-8E0F53D9E5E0}:_AAE63BFA7DBC4771912F5154313AC2D8"
+            {
+            "DefaultLocation" = "8:%InstallDir%"
+            "Name" = "8:#1920"
+            "Condition" = "8:"
+            "Property" = "8:%InstallDir%"
+                "Folders"
+                {
+                }
+            }
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:TorchButton"
+        "Manufacturer" = "8:NetRipper"
+        "OSVersionMin" = "8:4.0"
+        "OSVersionMax" = "8:6.99"
+        "NoUninstall" = "11:FALSE"
+        "Compress" = "11:TRUE"
+        "CESetupDLL" = "8:"
+        }
+        "ProjectOutput"
+        {
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_065F7AD2F60D499BBF79A3E0F3F79CCE"
+            {
+            "SourcePath" = "8:..\\TorchButtonBlink\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonBlink.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{4ABA4DF1-F496-465E-85B2-33D2AE46B910}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_43F556C91F4A4B22865E039492BA41BC"
+            {
+            "SourcePath" = "8:..\\TorchButtonPTT\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonPTT.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_9B2A10D7B70646E1B4D1BEEEC7CA958E"
+            {
+            "SourcePath" = "8:..\\TorchButtonSOS\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonSOS.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{174BCAC6-9204-4800-AB5A-D1CF1A47D0F6}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_9F850981912749AD8CEC8A7547E33138"
+            {
+            "SourcePath" = "8:..\\TorchButton\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButton.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{FD9F74EE-2DC3-49C5-96F3-C12E2B1B85F5}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_A17F991F86DF4C27A8A18C2B60EDD039"
+            {
+            "SourcePath" = "8:..\\TorchButtonBright\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonBright.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{174BCAC6-9204-4800-AB5A-D1CF1A47D0F4}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_835E0752C67F4FFEB0B2C55B51619646"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                        "Keys"
+                        {
+                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_CF80480F59A34A3E8A879E4D47B7F534"
+                            {
+                            "Name" = "8:TorchButton"
+                            "Condition" = "8:"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Shortcut"
+        {
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_1E582129401F41B99CBF6C46EB3C068D"
+            {
+            "Name" = "8:TorchButton Blink"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_065F7AD2F60D499BBF79A3E0F3F79CCE"
+            "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
+            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            }
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_4A6292ECF1D64095B242A6063E6D27F3"
+            {
+            "Name" = "8:TorchButton PTT"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_43F556C91F4A4B22865E039492BA41BC"
+            "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
+            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            }
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_7036291026AE4E969441D7946E00D339"
+            {
+            "Name" = "8:TorchButton SOS"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_9B2A10D7B70646E1B4D1BEEEC7CA958E"
+            "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
+            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            }
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_EBA1B948C31B4096B5529151E14CD1DF"
+            {
+            "Name" = "8:TorchButton"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_9F850981912749AD8CEC8A7547E33138"
+            "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
+            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            }
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_F6AE8516393C42A592B2AC1B4A82ECD1"
+            {
+            "Name" = "8:TorchButton Bright"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_A17F991F86DF4C27A8A18C2B60EDD039"
+            "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
+            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            }
+        }
+    }
+}
