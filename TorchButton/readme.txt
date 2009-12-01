@@ -1,5 +1,5 @@
 .----------------------------------------------------------------------
-| TorchButton, v2.1
+| TorchButton, v2.2
 }----------------------------------------------------------
 |
 | Dropped your keys? Finding something behind the bench? Operating on a computer and
@@ -58,6 +58,10 @@
 |   blinkTimeOffInMs (DWORD), default 250. In milliseconds.
 |      When using blink mode, determines how long the led should stay off before turning
 |      on again.
+|
+|   BlinkUsesBrightMode (DWORD), default 0.
+|      When set to 1, blink mode will make use of the bright mode. If bright mode is not
+|      available for a certain device, it will fall back to normal mode.
 |   
 |   sosText (SZ), default "sos ". Textual.
 |      When using SOS mode, determines the text to send with morse code. Supported
@@ -76,11 +80,24 @@
 |      bright LED. On some devices this reset time should be shorter.
 |      NOTE: Set this to 100 when you have the Alltel Touch Pro.
 |
+|   BrightModeTimeout (DWORD), default 10. In seconds.
+|      A seperate timeout used for bright mode. As bright mode can cause the led(s) to heat
+|      up a lot more than normal mode, it is limited by a seperate timeout.
+|
 |   DebugEnabled (DWORD), default 0.
 |      When set to 1, a log file will be created in the root directory called
 |      torchbutton.txt. Include this file if there are issues.
 |
 | History:
+|
+|   v2.2 (2009-12-02)
+|   - New icons for all TorchButton apps (thanks tnyynt!). These only work in WM6.5 and up.
+|     Older OS's will still see the old icons.
+|   - Added registry setting to use bright setting in blink mode (see BlinkUsesBrightMode).
+|   - Bright mode now has a seperate timeout, configurable in registry (see BrightModeTimeout).
+|   - Added support for Samsung Omnia i9x0 devices (hopefully they all work).
+|     Thanks to raph/zemrwhite2/PaSSoA (http://www.modaco.com/content-page/275325/camera-light-and-software/page/20/#entry936759).
+|     Thanks to Chainfire for testing on his Omnia i900L.
 |
 |   v2.1 (2009-11-14)
 |   - Bright mode is now support on the HTC HD2 (Leo).

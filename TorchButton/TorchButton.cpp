@@ -7,6 +7,7 @@
 #include "ICamDevice.h"
 #include "CamRaphael.h"
 #include "CamLeo.h"
+#include "CamOmnia.h"
 
 #include "Helpers.h"
 #include "RegistrySettings.h"
@@ -71,10 +72,12 @@ int _tmain(int argc, _TCHAR* argv[])
     DWORD flashlightTimeout = 0;
     DWORD blinkTimeOnInMs = 0;
     DWORD blinkTimeOffInMs = 0;
+    DWORD blinkUsesBrightMode = 0;
     wchar_t* sosText = new wchar_t[8192];
     DWORD sosUnitTimeInMs = 0;
     DWORD brightResetTimeInMs = 0;
     DWORD brightWarningAccepted = 0;
+    DWORD brightModeTimeout = 0;
 
     HKEY hKey = 0;
 
@@ -91,6 +94,8 @@ int _tmain(int argc, _TCHAR* argv[])
         ReadValue(hKey, REGVALUE_VALUE_SOS_UNIT_TIME_IN_MS, REG_DWORD, (BYTE*)&sosUnitTimeInMs, &dwSize, (BYTE*)&REGVALUE_DEFAULT_SOS_UNIT_TIME_IN_MS, sizeof(DWORD));
         ReadValue(hKey, REGVALUE_VALUE_BRIGHT_RESET_TIME_IN_MS, REG_DWORD, (BYTE*)&brightResetTimeInMs, &dwSize, (BYTE*)&REGVALUE_DEFAULT_BRIGHT_RESET_TIME_IN_MS, sizeof(DWORD));
         ReadValue(hKey, REGVALUE_VALUE_BRIGHT_WARNING_ACCEPTED, REG_DWORD, (BYTE*)&brightWarningAccepted, &dwSize, (BYTE*)&REGVALUE_DEFAULT_BRIGHT_WARNING_ACCEPTED, sizeof(DWORD));
+        ReadValue(hKey, REGVALUE_VALUE_BRIGHT_MODE_TIMEOUT, REG_DWORD, (BYTE*)&brightModeTimeout, &dwSize, (BYTE*)&REGVALUE_DEFAULT_BRIGHT_MODE_TIMEOUT, sizeof(DWORD));
+        ReadValue(hKey, REGVALUE_VALUE_BLINK_USES_BRIGHT_MODE, REG_DWORD, (BYTE*)&blinkUsesBrightMode, &dwSize, (BYTE*)&REGVALUE_DEFAULT_BLINK_USES_BRIGHT_MODE, sizeof(DWORD));
 
         dwSize = 8192 * sizeof(wchar_t);
         ReadValue(hKey, REGVALUE_VALUE_SOS_TEXT, REG_SZ, (BYTE*)sosText, &dwSize, (BYTE*)REGVALUE_DEFAULT_SOS_TEXT, wcslen(REGVALUE_DEFAULT_SOS_TEXT) * sizeof(wchar_t));
@@ -168,14 +173,24 @@ int _tmain(int argc, _TCHAR* argv[])
         if (cam->Initialize())
         {
             logger("Initialized camera for Leo...");
-            ((CamLeo*)cam)->BrightModeResetTimeInMs = 500;
+            ((CamLeo*)cam)->BrightModeResetTimeInMs = 500; // Hardcoded for now, default differs from Raphaels default. How to cope with the different defaults? 
         }
         else
         {
-            logger("Failed for Leo.");
-            DisplayError(L"Couldn't detect a supported device, exiting...");
-            CloseHandle(hEvent);
-            return 1;
+            delete cam;
+            logger("Failed for Leo. Trying to initialize for Omnia...");
+            cam = new CamOmnia();
+            if (cam->Initialize())
+            {
+                logger("Initialized camera for Omnia...");
+            }
+            else
+            {
+                logger("Failed for Omnia.");
+                DisplayError(L"Couldn't detect a supported device, exiting...");
+                CloseHandle(hEvent);
+                return 1;
+            }
         }
     }
 
@@ -190,8 +205,8 @@ int _tmain(int argc, _TCHAR* argv[])
         logger("Enabling flashlight...");
         if (cam->SetFlashMode(ICamDevice::LED_BRIGHT))
         {
-            logger("Waiting for event or timeout...");
-            WaitForSingleObject(hEvent, flashlightTimeout * 1000);
+            logger("Waiting for event or timeout of %d seconds...", brightModeTimeout);
+            WaitForSingleObject(hEvent, brightModeTimeout * 1000);
 
             logger("Disabling flashlight...");
             cam->SetFlashMode(ICamDevice::LED_OFF);
@@ -212,7 +227,18 @@ int _tmain(int argc, _TCHAR* argv[])
         while (dwRunning < flashlightTimeout * 1000)
         {
             // Enable flashlight
-            cam->SetFlashMode(ICamDevice::LED_NORMAL);
+            if (blinkUsesBrightMode)
+            {
+                if (!cam->SetFlashMode(ICamDevice::LED_BRIGHT))
+                {
+                    // Bright mode is not supported, fall back to normal.
+                    cam->SetFlashMode(ICamDevice::LED_NORMAL);
+                }
+            }
+            else
+            {
+                cam->SetFlashMode(ICamDevice::LED_NORMAL);
+            }
 
             // Sleep for configured time
             Sleep(blinkTimeOnInMs);

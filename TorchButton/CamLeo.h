@@ -36,4 +36,5 @@ private: // variables
     LEO_INIT InitFlashLight;
     LEO_SETCURRENT PMICFlashLED_SetCurrent;
     HANDLE hBrightThread;
+    HANDLE hBrightEvent;
 };

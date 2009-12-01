@@ -13,6 +13,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TorchButtonSOS", "TorchButt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TorchButtonPTT", "TorchButtonPTT\TorchButtonPTT.vcproj", "{A1C91E64-07F3-4E6F-A2A8-D78761ED948C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{150CCE8F-3769-42D0-B597-B1CD2FBE762C}"
+	ProjectSection(SolutionItems) = preProject
+		Icons\Blink.png = Icons\Blink.png
+		Icons\Bright.png = Icons\Bright.png
+		Icons\Config.png = Icons\Config.png
+		Icons\Folder.png = Icons\Folder.png
+		Icons\Normal.png = Icons\Normal.png
+		Icons\Original.png = Icons\Original.png
+		Icons\PTT.png = Icons\PTT.png
+		Icons\SOS.png = Icons\SOS.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Windows Mobile 6 Professional SDK (ARMV4I) = Debug|Windows Mobile 6 Professional SDK (ARMV4I)

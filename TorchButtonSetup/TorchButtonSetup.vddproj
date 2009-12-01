@@ -20,13 +20,49 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_2366C9034CF64FD99F7DF02E9CDED178"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_43F556C91F4A4B22865E039492BA41BC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_50018476859B4DC38D27D95745C86BA5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_85676B3A28BD47579F9B0F63DE68A43A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_86B25B94A0B14B268FD9E0ACFA501082"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8E731D93389B4F878FC964B571C1F07F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9B2A10D7B70646E1B4D1BEEEC7CA958E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9EA8229CFFB143568BAAB5C9FEEB6410"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -39,6 +75,18 @@
         "Entry"
         {
         "MsmKey" = "8:_A17F991F86DF4C27A8A18C2B60EDD039"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BE7BD23942E148A5AE0F07151B320750"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D69E191AB77D4768865A1BDA12A6DA26"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -80,6 +128,150 @@
     {
         "File"
         {
+            "{BA458234-9B71-4F46-8107-E91156377184}:_2366C9034CF64FD99F7DF02E9CDED178"
+            {
+            "SourcePath" = "8:..\\Icons\\SOS.png"
+            "TargetName" = "8:SOS.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_50018476859B4DC38D27D95745C86BA5"
+            {
+            "SourcePath" = "8:..\\Icons\\Folder.png"
+            "TargetName" = "8:Folder.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_85676B3A28BD47579F9B0F63DE68A43A"
+            {
+            "SourcePath" = "8:..\\Icons\\PTT.png"
+            "TargetName" = "8:PTT.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_86B25B94A0B14B268FD9E0ACFA501082"
+            {
+            "SourcePath" = "8:..\\Icons\\Normal.png"
+            "TargetName" = "8:Normal.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_8E731D93389B4F878FC964B571C1F07F"
+            {
+            "SourcePath" = "8:..\\Icons\\Blink.png"
+            "TargetName" = "8:Blink.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_9EA8229CFFB143568BAAB5C9FEEB6410"
+            {
+            "SourcePath" = "8:..\\Icons\\Config.png"
+            "TargetName" = "8:Config.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_BE7BD23942E148A5AE0F07151B320750"
+            {
+            "SourcePath" = "8:..\\Icons\\Original.png"
+            "TargetName" = "8:Original.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D69E191AB77D4768865A1BDA12A6DA26"
+            {
+            "SourcePath" = "8:..\\Icons\\Bright.png"
+            "TargetName" = "8:Bright.png"
+            "Tag" = "8:"
+            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{BA458234-9B71-4F46-8107-E91156377184}:_D6C6EEEA0ACA43FEB8EE94C990C2FE9D"
             {
             "SourcePath" = "8:..\\TorchButton\\readme.txt"
@@ -115,6 +307,15 @@
                     "Property" = "8:_964D84D1AEC044DEBCD2A7A1281DA775"
                         "Folders"
                         {
+                            "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_11AF27CF0DD746C88A13121EE9922C6A"
+                            {
+                            "Name" = "8:Icons"
+                            "Condition" = "8:"
+                            "Property" = "8:_1D5C483714AF498B8E26D17581190183"
+                                "Folders"
+                                {
+                                }
+                            }
                         }
                     }
                 }
@@ -298,6 +499,158 @@
             {
                 "Keys"
                 {
+                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_60DA0D2A9A054CE1AB2207AC300B1044"
+                    {
+                    "Name" = "8:Security"
+                    "Condition" = "8:"
+                        "Keys"
+                        {
+                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_74292F3F561F4861A7C04C043DD47466"
+                            {
+                            "Name" = "8:Shell"
+                            "Condition" = "8:"
+                                "Keys"
+                                {
+                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_C11DA4995C7A4A7383C033C74773D518"
+                                    {
+                                    "Name" = "8:StartInfo"
+                                    "Condition" = "8:"
+                                        "Keys"
+                                        {
+                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_1895F2120F884EA1A6586DE0AC26B992"
+                                            {
+                                            "Name" = "8:Start"
+                                            "Condition" = "8:"
+                                                "Keys"
+                                                {
+                                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_E392B51CD1B64A57BB8D6CC9B03901F4"
+                                                    {
+                                                    "Name" = "8:TorchButton"
+                                                    "Condition" = "8:"
+                                                        "Keys"
+                                                        {
+                                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_3E790870F3BE453888244B26B8455673"
+                                                            {
+                                                            "Name" = "8:TorchSOS.lnk"
+                                                            "Condition" = "8:"
+                                                                "Keys"
+                                                                {
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                    "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_6C5380840D664E1CB0FE3B85EB915607"
+                                                                    {
+                                                                    "Name" = "8:Icon"
+                                                                    "Condition" = "8:"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:%InstallDir%\\Icons\\SOS.png"
+                                                                    }
+                                                                }
+                                                            }
+                                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_497766EB71A64305A1F9D37BCC349CD0"
+                                                            {
+                                                            "Name" = "8:TorchBright.lnk"
+                                                            "Condition" = "8:"
+                                                                "Keys"
+                                                                {
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                    "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_A9B04EA5C31641D3A64BD7DBAEE6890B"
+                                                                    {
+                                                                    "Name" = "8:Icon"
+                                                                    "Condition" = "8:"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:%InstallDir%\\Icons\\Bright.png"
+                                                                    }
+                                                                }
+                                                            }
+                                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_98BE2C15EA0B44E5827B41F6F8BA0688"
+                                                            {
+                                                            "Name" = "8:TorchPTT.lnk"
+                                                            "Condition" = "8:"
+                                                                "Keys"
+                                                                {
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                    "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_68984AD551E54DE5A1EFF434C15169F3"
+                                                                    {
+                                                                    "Name" = "8:Icon"
+                                                                    "Condition" = "8:"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:%InstallDir%\\Icons\\PTT.png"
+                                                                    }
+                                                                }
+                                                            }
+                                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_DF9F4A59053B4E578D9ED500C26342E0"
+                                                            {
+                                                            "Name" = "8:Torch.lnk"
+                                                            "Condition" = "8:"
+                                                                "Keys"
+                                                                {
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                    "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_870DD28F06FA4633B5C58694FBCE27A5"
+                                                                    {
+                                                                    "Name" = "8:Icon"
+                                                                    "Condition" = "8:"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:%InstallDir%\\Icons\\Normal.png"
+                                                                    }
+                                                                }
+                                                            }
+                                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_F1A48622B2664ABEA162CF3051BFE398"
+                                                            {
+                                                            "Name" = "8:TorchBlink.lnk"
+                                                            "Condition" = "8:"
+                                                                "Keys"
+                                                                {
+                                                                }
+                                                                "Values"
+                                                                {
+                                                                    "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_357DBDBD316A4668A9BFA3332CD6D333"
+                                                                    {
+                                                                    "Name" = "8:Icon"
+                                                                    "Condition" = "8:"
+                                                                    "ValueTypes" = "3:1"
+                                                                    "Value" = "8:%InstallDir%\\Icons\\Blink.png"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        "Values"
+                                                        {
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_BF20C7FE6861439DB4B3F1978FB68193"
+                                                            {
+                                                            "Name" = "8:Icon"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:1"
+                                                            "Value" = "8:%InstallDir%\\Icons\\Folder.png"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                "Values"
+                                                {
+                                                }
+                                            }
+                                        }
+                                        "Values"
+                                        {
+                                        }
+                                    }
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
                     "{B1EBC968-6B66-4532-A885-748B79AF4477}:_835E0752C67F4FFEB0B2C55B51619646"
                     {
                     "Name" = "8:Software"
@@ -351,7 +704,7 @@
         {
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_1E582129401F41B99CBF6C46EB3C068D"
             {
-            "Name" = "8:TorchButton Blink"
+            "Name" = "8:TorchBlink"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -361,7 +714,7 @@
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_4A6292ECF1D64095B242A6063E6D27F3"
             {
-            "Name" = "8:TorchButton PTT"
+            "Name" = "8:TorchPTT"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -371,7 +724,7 @@
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_7036291026AE4E969441D7946E00D339"
             {
-            "Name" = "8:TorchButton SOS"
+            "Name" = "8:TorchSOS"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -381,7 +734,7 @@
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_EBA1B948C31B4096B5529151E14CD1DF"
             {
-            "Name" = "8:TorchButton"
+            "Name" = "8:Torch"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -391,7 +744,7 @@
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_F6AE8516393C42A592B2AC1B4A82ECD1"
             {
-            "Name" = "8:TorchButton Bright"
+            "Name" = "8:TorchBright"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"

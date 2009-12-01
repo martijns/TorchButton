@@ -9,6 +9,7 @@ CamLeo::CamLeo()
     BrightThreadRunning = false;
     BrightModeResetTimeInMs = 500;
     hBrightThread = NULL;
+    hBrightEvent = CreateEvent(NULL, TRUE, FALSE, L"TorchButton\\{BD8B64F3-A881-4052-A2FE-9F6097A782E8}");
 }
 
 CamLeo::~CamLeo()
@@ -81,6 +82,7 @@ void CamLeo::BrightStart()
     {
         logger("CamLeo::BrightStart - Starting the thread to keep bright enabled");
         BrightThreadRunning = true;
+        ResetEvent(hBrightEvent);
         hBrightThread = CreateThread(NULL, 0, CamLeo::BrightThreadStart, this, 0, NULL);
         SetThreadPriority(hBrightThread, THREAD_PRIORITY_HIGHEST);
     }
@@ -96,6 +98,7 @@ void CamLeo::BrightStop()
     {
         logger("CamLeo::BrightStop - Stopping the thread for bright mode");
         BrightThreadRunning = false;
+        SetEvent(hBrightEvent);
         WaitForSingleObject(hBrightThread, INFINITE);
         hBrightThread = NULL;
     }
@@ -171,7 +174,7 @@ void CamLeo::BrightViaIo(HANDLE hDevice)
         bResult = DeviceIoControl(hDevice, 0x220000 | 0xc00, &dBrightLed, sizeof(DWORD), &dResult, sizeof(DWORD), &dOutSize, NULL); // on
 
         // Sleep a little
-        Sleep(BrightModeResetTimeInMs);
+        WaitForSingleObject(hBrightEvent, BrightModeResetTimeInMs);
     }
 
     // Reset flashlight when we break the loop
