@@ -1,5 +1,5 @@
 .----------------------------------------------------------------------
-| TorchButton, v2.2
+| TorchButton, v2.3
 }----------------------------------------------------------
 |
 | Dropped your keys? Finding something behind the bench? Operating on a computer and
@@ -89,6 +89,9 @@
 |      torchbutton.txt. Include this file if there are issues.
 |
 | History:
+|
+|   v2.3 (2009-12-08)
+|   - Fix icons not showing in HTC Sense or WM 6.5 start menu when installed to Storage Card.
 |
 |   v2.2 (2009-12-02)
 |   - New icons for all TorchButton apps (thanks tnyynt!). These only work in WM6.5 and up.

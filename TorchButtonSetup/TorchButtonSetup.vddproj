@@ -133,7 +133,7 @@
             "SourcePath" = "8:..\\Icons\\SOS.png"
             "TargetName" = "8:SOS.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -151,7 +151,7 @@
             "SourcePath" = "8:..\\Icons\\Folder.png"
             "TargetName" = "8:Folder.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -169,7 +169,7 @@
             "SourcePath" = "8:..\\Icons\\PTT.png"
             "TargetName" = "8:PTT.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -187,7 +187,7 @@
             "SourcePath" = "8:..\\Icons\\Normal.png"
             "TargetName" = "8:Normal.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -205,7 +205,7 @@
             "SourcePath" = "8:..\\Icons\\Blink.png"
             "TargetName" = "8:Blink.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -223,7 +223,7 @@
             "SourcePath" = "8:..\\Icons\\Config.png"
             "TargetName" = "8:Config.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -241,7 +241,7 @@
             "SourcePath" = "8:..\\Icons\\Original.png"
             "TargetName" = "8:Original.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -259,7 +259,7 @@
             "SourcePath" = "8:..\\Icons\\Bright.png"
             "TargetName" = "8:Bright.png"
             "Tag" = "8:"
-            "Folder" = "8:_11AF27CF0DD746C88A13121EE9922C6A"
+            "Folder" = "8:_93543A988DE54B939EFA0F6836B09E6A"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -277,7 +277,7 @@
             "SourcePath" = "8:..\\TorchButton\\readme.txt"
             "TargetName" = "8:readme.txt"
             "Tag" = "8:"
-            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Folder" = "8:_AAE63BFA7DBC4771912F5154313AC2D8"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -293,33 +293,6 @@
         }
         "Folder"
         {
-            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_2BCAB5FE682C42188A6C95298FA33118"
-            {
-            "Name" = "8:#1911"
-            "Condition" = "8:"
-            "Property" = "8:%CE1%"
-                "Folders"
-                {
-                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_F55018CBD0854F4F913F27FC1E99C0ED"
-                    {
-                    "Name" = "8:TorchButton"
-                    "Condition" = "8:"
-                    "Property" = "8:_964D84D1AEC044DEBCD2A7A1281DA775"
-                        "Folders"
-                        {
-                            "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_11AF27CF0DD746C88A13121EE9922C6A"
-                            {
-                            "Name" = "8:Icons"
-                            "Condition" = "8:"
-                            "Property" = "8:_1D5C483714AF498B8E26D17581190183"
-                                "Folders"
-                                {
-                                }
-                            }
-                        }
-                    }
-                }
-            }
             "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_5FF22258355040C287DFFDBE0AAED7AB"
             {
             "Name" = "8:#1916"
@@ -346,6 +319,15 @@
             "Property" = "8:%InstallDir%"
                 "Folders"
                 {
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_93543A988DE54B939EFA0F6836B09E6A"
+                    {
+                    "Name" = "8:Icons"
+                    "Condition" = "8:"
+                    "Property" = "8:_1D5C483714AF498B8E26D17581190183"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -367,7 +349,7 @@
             "SourcePath" = "8:..\\TorchButtonBlink\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonBlink.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Folder" = "8:_AAE63BFA7DBC4771912F5154313AC2D8"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -393,7 +375,7 @@
             "SourcePath" = "8:..\\TorchButtonPTT\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonPTT.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Folder" = "8:_AAE63BFA7DBC4771912F5154313AC2D8"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -419,7 +401,7 @@
             "SourcePath" = "8:..\\TorchButtonSOS\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonSOS.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Folder" = "8:_AAE63BFA7DBC4771912F5154313AC2D8"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -445,7 +427,7 @@
             "SourcePath" = "8:..\\TorchButton\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButton.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Folder" = "8:_AAE63BFA7DBC4771912F5154313AC2D8"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -471,7 +453,7 @@
             "SourcePath" = "8:..\\TorchButtonBright\\Windows Mobile 6 Professional SDK (ARMV4I)\\Release\\TorchButtonBright.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "Folder" = "8:_AAE63BFA7DBC4771912F5154313AC2D8"
             "Condition" = "8:"
             "Vital" = "11:TRUE"
             "ReadOnly" = "11:FALSE"
@@ -710,7 +692,7 @@
             "ShowCmd" = "3:1"
             "Target" = "8:_065F7AD2F60D499BBF79A3E0F3F79CCE"
             "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
-            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "WorkingFolder" = "8:"
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_4A6292ECF1D64095B242A6063E6D27F3"
             {
@@ -720,7 +702,7 @@
             "ShowCmd" = "3:1"
             "Target" = "8:_43F556C91F4A4B22865E039492BA41BC"
             "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
-            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "WorkingFolder" = "8:"
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_7036291026AE4E969441D7946E00D339"
             {
@@ -730,7 +712,7 @@
             "ShowCmd" = "3:1"
             "Target" = "8:_9B2A10D7B70646E1B4D1BEEEC7CA958E"
             "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
-            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "WorkingFolder" = "8:"
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_EBA1B948C31B4096B5529151E14CD1DF"
             {
@@ -740,7 +722,7 @@
             "ShowCmd" = "3:1"
             "Target" = "8:_9F850981912749AD8CEC8A7547E33138"
             "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
-            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "WorkingFolder" = "8:"
             }
             "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_F6AE8516393C42A592B2AC1B4A82ECD1"
             {
@@ -750,7 +732,7 @@
             "ShowCmd" = "3:1"
             "Target" = "8:_A17F991F86DF4C27A8A18C2B60EDD039"
             "Folder" = "8:_16349FCF71DC4FC395F15F3C14782DF0"
-            "WorkingFolder" = "8:_F55018CBD0854F4F913F27FC1E99C0ED"
+            "WorkingFolder" = "8:"
             }
         }
     }
